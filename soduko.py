@@ -34,6 +34,10 @@ def find_empty(board):
         for column in range(len(board[0])):
             if board[row][column] == 0:
                 return (row, column)
+            
+
+def hello(das):
+    print(das)
 
 
 print_board(board)
